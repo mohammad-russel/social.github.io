@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #171717;
+}
+
+.container {
+  margin: auto;
+  max-width: 700px;
+  height: 100vh;
+}
+
+.container .box {
+  height: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  background: white;
+  height: 10%;
+}
+
+header .logo {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo a {
+  text-decoration: none;
+}
+
+header .logo a h1 {
+  color: #2063d8;
+  letter-spacing: 2px;
+}
+
+header .menu {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .menu a {
+  margin: 0px 20px;
+}
+
+header .menu a i svg {
+  color: #3a3a3a;
+  width: 22px;
+}
+
+main {
+  overflow: auto;
+  height: 90%;
+  background: #e4e4e4;
+}
+
+main .box {
+  background: gainsboro;
+}
+
+main .box .searchbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  padding: 3px 15px;
+}
+
+main .box .searchbox .title h3 {
+  font-size: 30px;
+  text-shadow: white 1px 1px 1px;
+  color: #3e3e3e;
+}
+
+main .box .searchbox .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .box .searchbox .search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .box .searchbox .search form input {
+  font-size: 18px;
+  padding: 3px;
+  outline: none;
+  border: none;
+  height: 30px;
+  margin: 0px 10px;
+  border-radius: 5px;
+}
+
+main .box .searchbox .search form button {
+  padding: 4px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: whitesmoke;
+  border: none;
+  background: #285eb0;
+  font-size: 17px;
+  border-radius: 7px;
+}
+
+main .box .peopleroom {
+  background: #d0d0d0;
+}
+
+main .box .peopleroom .peoplebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 20px;
+}
+
+main .box .peopleroom .peoplebox .picnam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .box .peopleroom .peoplebox .picnam img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+main .box .peopleroom .peoplebox .picnam h3 {
+  color: #414141;
+  padding: 0px 10px;
+}
+
+main .box .peopleroom .peoplebox .linkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .box .peopleroom .peoplebox .linkbox a {
+  text-decoration: none;
+  color: #5f5fff;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+main .box .peopleroom .peoplebox .linkbox a i svg {
+  width: 31px;
+}
+/*# sourceMappingURL=style.css.map */
