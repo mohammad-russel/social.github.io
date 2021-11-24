@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #171717;
+}
+
+.container {
+  margin: auto;
+  max-width: 700px;
+  height: 100vh;
+}
+
+.container .box {
+  height: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  background: white;
+  height: 10%;
+}
+
+header .logo {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo a {
+  text-decoration: none;
+}
+
+header .logo a h1 {
+  color: #2063d8;
+  letter-spacing: 2px;
+}
+
+header .menu {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .menu a {
+  margin: 0px 20px;
+}
+
+header .menu a i svg {
+  color: #3a3a3a;
+  width: 22px;
+}
+
+main {
+  overflow: auto;
+  height: 90%;
+}
+
+.notifyroom {
+  background: #b0b0b0;
+  padding: 5px;
+}
+
+.notifyroom a {
+  margin: 10px;
+  text-decoration: none;
+  color: #002d5d;
+}
+
+.notifyroom #com {
+  color: #006a50;
+}
+
+.notifyroom .notifybox {
+  border-radius: 20px;
+  padding: 5px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notifyroom .notifybox i {
+  margin: 0px 10px;
+  width: 70px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.notifyroom .notifybox i svg {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

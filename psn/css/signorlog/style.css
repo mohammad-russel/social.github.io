@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 15px -7px;
+          box-shadow: 3px 3px 15px -7px;
+}
+
+form .title {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .title h1 {
+  color: #3f3f3f;
+}
+
+input::-webkit-input-placeholder {
+  color: #818181;
+}
+
+input:-ms-input-placeholder {
+  color: #818181;
+}
+
+input::-ms-input-placeholder {
+  color: #818181;
+}
+
+input::placeholder {
+  color: #818181;
+}
+
+input,
+select {
+  outline: none;
+  font-size: large;
+  border-radius: 5px;
+  background: whitesmoke;
+  -webkit-box-shadow: 4px 4px 5px -5px;
+          box-shadow: 4px 4px 5px -5px;
+  margin: 5px;
+  height: 27px;
+  color: #353535;
+  padding: 5px;
+  border: none;
+}
+
+#submit {
+  background: #cecece;
+}
+
+p {
+  text-align: center;
+  color: #4e4e4e;
+}
+
+p a {
+  text-decoration: none;
+  color: #00a171;
+}
+/*# sourceMappingURL=style.css.map */
